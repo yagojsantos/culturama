@@ -10,6 +10,21 @@
     grid-column: 2/3;
     grid-row: 2/4;
 }
+/* AGENDA */
+.agenda__item{
+    display: grid;
+}
+.agenda__item img{
+    grid-column: 1/3;
+}
+.agenda__informacoes{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.agenda__atracao{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
 @media screen and (min-width: 720px){
    .banner{
     gap: 13px 24px;
