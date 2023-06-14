@@ -6,7 +6,7 @@
 | -------------  | --- |
 | :sparkles: Nome        | **Culturama**
 | :label: Tecnologias | HTML, CSS
-| :rocket: URL| 
+| :rocket: URL|  https://yagojsantos.github.io/culturama/
 | :memo: Figma Project | https://www.figma.com/file/0IqEJDk9TEX4mc5RpkpKbM/2713---Praticando-CSS%3A-Grid-e-Flexbox-(Copy)?type=design&node-id=79-477&t=OsheqLDvy7I7c1SA-0
 
 <img width="50%" src="https://github.com/yagojsantos/culturama/assets/119305146/23cb6782-0b82-4437-899f-50e105960bd9">
