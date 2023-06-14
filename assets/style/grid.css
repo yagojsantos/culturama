@@ -1,40 +1,77 @@
-.banner{
+/* BANNER */
+
+.banner {
     display: grid;
     gap: 1rem;
-   
+
 }
-.banner img:nth-child(1){
+
+.banner img:nth-child(1) {
     grid-column: 1/3;
 }
-.banner img:nth-child(4){
+
+.banner img:nth-child(4) {
     grid-column: 2/3;
     grid-row: 2/4;
 }
-/* AGENDA */
-.agenda__item{
+
+/* EVENTOS */
+.eventos__item {
     display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto repeat(2, 1fr) auto;
+    grid-template-areas:
+        "imagem imagem"
+        "nome nome"
+        "data data"
+        "local botao";
 }
-.agenda__item img{
+
+.eventos__item img {
+    grid-area: imagem;
+}
+
+.eventos__item h3 {
+    grid-area: nome;
+}
+
+.eventos__item h4 {
+    grid-area: data;
+}
+
+.eventos__item h5 {
+    grid-area: local;
+}
+
+.eventos__item button {
+    grid-area: botao;
+}
+
+/* AGENDA */
+.agenda__item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto 1fr;
+}
+
+.agenda__item img {
     grid-column: 1/3;
 }
-.agenda__informacoes{
-    grid-column: 1/2;
-    grid-row: 2/3;
-}
-.agenda__atracao{
-    grid-column: 2/3;
-    grid-row: 2/3;
-}
-@media screen and (min-width: 720px){
-   .banner{
-    gap: 13px 24px;
-    grid-template-columns: 2fr 1fr 1fr;
-   }
-    .banner img:nth-child(1){
+
+@media screen and (min-width: 720px) {
+
+    /* BANNER */
+    .banner {
+        gap: 13px 1.5rem;
+        grid-template-columns: calc(50% - 0.75rem);
+    }
+
+    .banner img:nth-child(1) {
         grid-column: 1/2;
         grid-row: 1/3;
     }
-    .banner img:nth-child(4){
+
+    .banner img:nth-child(4) {
         grid-column: 3/4;
         grid-row: 1/3;
     }
