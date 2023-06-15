@@ -15,6 +15,12 @@
 
 ## Detalhes do projeto
 
+Projeto desenvolvido durante o curso "Praticando CSS: Grid e Flexbox", da plataforma Alura.
+Conforme o nome sugere, a formação teve a utilização das propriedades do css Grid e Flexbox, como foco principal. A ideia era receber um projeto previamente codificado e definir a disposição dos elementos, baseando-se nos layouts presentes no Figma, através do uso das propriedades e valores mais comumente empregados destes módulos.
+
+Para também auxiliar o alcance do objetivo, houve a aplicação de 3 media queries que exigiam os tamanhos mínimos de 360, 720 e 1440 pixels.
+
+Concluí este projeto com muita felicidade em poder praticar meus conhecimentos, trabalhar os dois módulos em conjunto, além de aprender novos truques que facilitaram na hora de desenvolver layouts responsivos.
 
 ### Ferramentas e Tecnologias
 <div style="display:inline-block">
